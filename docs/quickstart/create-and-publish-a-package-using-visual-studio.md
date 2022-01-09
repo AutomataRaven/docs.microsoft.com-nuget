@@ -111,6 +111,8 @@ You can configure Visual Studio to automatically generate the NuGet package when
 
 As an alternate to using the **Pack** menu command, NuGet 4.x+ and MSBuild 15.1+ supports a `pack` target when the project contains the necessary package data. Open a command prompt, navigate to your project folder and run the following command. (You typically want to start the "Developer Command Prompt for Visual Studio" from the Start menu, as it will be configured with all the necessary paths for MSBuild.)
 
+`msbuild -t:pack`
+
 For more information, see [Create a package using MSBuild](../create-packages/creating-a-package-msbuild.md).
 
 ## Publish the package
